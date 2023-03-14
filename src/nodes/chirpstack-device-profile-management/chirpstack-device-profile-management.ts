@@ -5,7 +5,7 @@ import {
 } from "./modules/types";
 import { setConnection } from "../shared/setConnection";
 
-import grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 import {
   DeviceProfileListItem,
   ListDeviceProfileRequest,

@@ -1,5 +1,5 @@
 import { ChirpstackConnectionOptions } from "../shared/types";
-import * as grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 import { Node, NodeDef } from "node-red";
 
 export interface ChirpstackConnectionNodeDef

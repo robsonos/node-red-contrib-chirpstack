@@ -3,7 +3,7 @@ import {
   ChirpstackUserManagementNode,
   ChirpstackUserManagementNodeDef,
 } from "./modules/types";
-import grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 import { setConnection } from "../shared/setConnection";
 
 import { UserServiceClient } from "@chirpstack/chirpstack-api/as/external/api/user_grpc_pb";

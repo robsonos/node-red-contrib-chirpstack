@@ -5,7 +5,7 @@ import {
 } from "./modules/types";
 import * as internalService from "@chirpstack/chirpstack-api/as/external/api/internal_grpc_pb";
 import * as internalMessages from "@chirpstack/chirpstack-api/as/external/api/internal_pb";
-import * as grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 
 const nodeInit: NodeInitializer = (RED): void => {
   function ChirpstackConnectionNodeConstructor(
